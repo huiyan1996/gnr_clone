@@ -1,0 +1,5 @@
+{
+  "nuxt.isNuxtApp": true,
+  "editor.cursorBlinking": "solid",
+  "editor.fontVariations": false
+}
