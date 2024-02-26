@@ -1,5 +1,9 @@
 <template>
     <div>
+        <Banner />
+        <About />
+        <Platforms />
+        <Career />
     </div>
 </template>
 
