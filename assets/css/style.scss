@@ -20,6 +20,7 @@
   --sidebarSmallSize: 45px;
   --rankColor: #CBB76D;
   --pageContent: #f1f1f1;
+  --red: #f04145;
 }
 
 @font-face {
@@ -64,6 +65,10 @@ body {
   #__nuxt, #__layout {
     height: 100%;
   }
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .grid-container {
@@ -1697,20 +1702,45 @@ table.tableNoLine {
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
         margin: 0 54px 0 0;
-      }
+        position: relative;
 
-      .topbarNavItemStyle {
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-        cursor: pointer;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        transition: color .3s;
-      }
+        .topbarNavItemStyle {
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          cursor: pointer;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          transition: color .3s;
+          color: #000;
+        }
 
+        .dropdownBlock {
+          display: none;
+        }
+
+        &:hover {
+          .topbarNavItemStyle {
+            color: var(--red);
+          }
+
+          .dropdownBlock {
+            left: 20px;
+            position: absolute;
+            right: 20px;
+            text-align: center;
+            top: 100%;
+            display: block;
+            width: max-content;
+          }
+        }
+      }
+      
       .topbarNavDropdownBlock {
+        position: relative;
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
@@ -1719,44 +1749,32 @@ table.tableNoLine {
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
         width: 8px;
-        height: 40px;
-        position: relative;
-        -webkit-transform-origin: 50% 50%;
-        transform-origin: 50% 50%;
-        width: 40px;
 
         .dropdownIcon1 {
-          height: 2px;
-          -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
           background-color: currentColor;
           border-radius: 5px;
-          height: 4px;
           position: absolute;
           top: 50%;
-          -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
           -webkit-transform-origin: 100% 50%;
           transform-origin: 100% 50%;
           width: 60%;
+          -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+          height: 2px;
         }
 
         .dropdownIcon2 {
-          height: 2px;
-          margin: -1px 0 0;
-          margin: -2px 0 0;
-          -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
           background-color: currentColor;
           border-radius: 5px;
-          height: 4px;
           position: absolute;
           top: 50%;
-          -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
           -webkit-transform-origin: 100% 50%;
           transform-origin: 100% 50%;
           width: 60%;
+          -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+          height: 2px;
+          margin: -1px 0 0;
         }
       }
     }

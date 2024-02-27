@@ -13,9 +13,13 @@
                         <div class="topbarNavItemStyle">
                             Games
                             <div class="topbarNavDropdownBlock">
-                                <div class="iN-6BgJUMkyly+OACwRNOg== Mk2ViEFlSZaSUbtZ0+fIeg=="></div>
-                                <div class="jZ0Q-s7O3mhcIX-lnbkl-Q== -1l2imstEX5G1Z3xktLhsQ=="></div>
+                                <div class="dropdownIcon1"></div>
+                                <div class="dropdownIcon2"></div>
                             </div>
+                        </div>
+
+                        <div class="dropdownBlock">
+                            aaaaa
                         </div>
                     </div>
                 </div>
@@ -24,8 +28,8 @@
                         <div class="topbarNavItemStyle">
                             Platforms
                             <div class="topbarNavDropdownBlock">
-                                <div class="iN-6BgJUMkyly+OACwRNOg== Mk2ViEFlSZaSUbtZ0+fIeg=="></div>
-                                <div class="jZ0Q-s7O3mhcIX-lnbkl-Q== -1l2imstEX5G1Z3xktLhsQ=="></div>
+                                <div class="dropdownIcon1"></div>
+                                <div class="dropdownIcon2"></div>
                             </div>
                         </div>
                     </div>
