@@ -1,12 +1,107 @@
 <!-- Please remove this file from your project -->
 <template>
     <div>
-        <div class="footer">
-            <div class="centerWrapper">
-                <div class="col-12">
+        <div class="footerWrapper">
+            <div class="footerBlock">
+                <div class="footerLogo">
+                    <dl class="icon">
+                        <dt class="margin">
+                            <a class="img" href="/"></a>
+                        </dt>
+                    </dl>
+                    <div class="footerDesc">
+                        <dl class="item">
+                            <dt class="title">Company</dt>
+                            <dd class="content">
+                                <div class="link">
+                                    <a href="//www.seagroup.com/aboutus" target="_blank" rel="noopener noreferrer">About Us</a>
+                                </div>
+                                <div class="link">
+                                    <a href="//careers.garena.com" target="_blank" rel="noopener noreferrer">Career</a>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="item">
+                            <dt class="title">Platforms</dt>
+                            <dd class="content">
+                                <div class="link">
+                                    <a href="/gpc">Garena PC</a>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="item">
+                            <dt class="title">Service</dt>
+                            <dd class="content">
+                                <div class="link">
+                                    <a href="//sg.support.garena.com/" target="_blank" rel="noopener noreferrer">Support</a>
+                                </div>
+                                <div class="link">
+                                    <a href="//account.garena.com/?locale_name=SG" target="_blank" rel="noopener noreferrer">Account</a>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
                 </div>
-                <div class="col-12 text-center text-s mt-3 pt-4 border-top-grey">
-                    &copy; {{ date }} {{ $t('onthelist') }}
+                <div class="copyright">
+                    <div class="txt">Copyright © Garena Online. Trademarks belong to their respective owners. All rights reserved.</div>
+                    <div class="links">
+                        <div class="block">
+                            <a href="/terms" class="linkItem" target="_blank" rel="noopener noreferrer">Terms of Service</a>
+                            <a href="/privacy" class="linkItem" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                            <a class="linkItem" href="/faq">For Parents FAQ</a>
+                        </div>
+                        <div class="dropdown">
+                            <div class="width">
+                                <div class="r8O496+y9+ETu14x2rUc3Q==">
+                                    <div class="JMB4Xf64Mc4S3SWW0Hj0VA==">
+                                        <div class="-NuirelmrS+wnStmJ6JyNA==">
+                                            <div class="C-yz4PkonPc7lqX7SWFlbA==">Singapore</div>
+                                        </div>
+                                    </div>
+                                    <div class="TCu2Sg6bXVxbegKpzjsNrQ==">
+                                        <div class="cPIkfg3-tEa3Cx-BpEEo0w=="></div>
+                                    </div>
+                                    <div class="TxZLSRgnhj7VRBLdMaj2eA== egrB0tOhtMyj5O1KNEzdHQ==">
+                                        <button type="button" class="d7MnRoycX5ZaNB66HilMUA== _9RAuDtkY5H3MhAzxGVcNkQ==">
+                                            <div class="-NuirelmrS+wnStmJ6JyNA==">
+                                                <div class="C-yz4PkonPc7lqX7SWFlbA==">Singapore</div>
+                                            </div>
+                                        </button>
+                                        <button type="button" class="_9RAuDtkY5H3MhAzxGVcNkQ==">
+                                            <div class="-NuirelmrS+wnStmJ6JyNA==">
+                                                <div class="C-yz4PkonPc7lqX7SWFlbA==">Indonesia</div>
+                                            </div>
+                                        </button>
+                                        <button type="button" class="_9RAuDtkY5H3MhAzxGVcNkQ==">
+                                            <div class="-NuirelmrS+wnStmJ6JyNA==">
+                                                <div class="C-yz4PkonPc7lqX7SWFlbA==">Malaysia</div>
+                                            </div>
+                                        </button>
+                                        <button type="button" class="_9RAuDtkY5H3MhAzxGVcNkQ==">
+                                            <div class="-NuirelmrS+wnStmJ6JyNA==">
+                                                <div class="C-yz4PkonPc7lqX7SWFlbA==">Philippines</div>
+                                            </div>
+                                        </button>
+                                        <button type="button" class="_9RAuDtkY5H3MhAzxGVcNkQ==">
+                                            <div class="-NuirelmrS+wnStmJ6JyNA==">
+                                                <div class="C-yz4PkonPc7lqX7SWFlbA==">Taiwan</div>
+                                            </div>
+                                        </button>
+                                        <button type="button" class="_9RAuDtkY5H3MhAzxGVcNkQ==">
+                                            <div class="-NuirelmrS+wnStmJ6JyNA==">
+                                                <div class="C-yz4PkonPc7lqX7SWFlbA==">Thailand</div>
+                                            </div>
+                                        </button>
+                                        <button type="button" class="_9RAuDtkY5H3MhAzxGVcNkQ==">
+                                            <div class="-NuirelmrS+wnStmJ6JyNA==">
+                                                <div class="C-yz4PkonPc7lqX7SWFlbA==">Vietnam</div>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
