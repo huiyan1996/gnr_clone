@@ -62,6 +62,7 @@ export default {
         '~/plugins/call.js',
         // "~/plugins/vue2Editor.js",
         { src: '~/plugins/vue2Editor', mode: 'client' },
+        { src: '~/plugins/slider', mode: 'client' },
         '~/plugins/indexedDB.js',
     ],
 

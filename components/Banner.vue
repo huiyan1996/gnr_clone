@@ -167,33 +167,17 @@
     </div>
 </template>
 
-<script>import { Slider, SliderItem } from 'vue-easy-slider'
-
-new Vue({
-  el: 'body',
-  components: {
-    Slider,
-    SliderItem,
-  },
-  data() {
-    return {
-      list: [
-        { backgroundColor: '#3f51b5', width: '100%', height: '100%' },
-        { backgroundColor: '#eee', width: '100%', height: '100%' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%' },
-      ],
-    }
-  },
-  methods: {
-    hello($event) {
-      console.log(`hello index: ${$event}`)
-    },
-  },
-})
+<script>
 export default {
     name: 'Banner',
     data() {
         return {
+            sliderIndex: 0,
+            list: [
+                { backgroundColor: '#3f51b5', width: '100%', height: '100%' },
+                { backgroundColor: '#eee', width: '100%', height: '100%' },
+                { backgroundColor: '#f44336', width: '100%', height: '100%' },
+            ],
         }
     },
     computed: {
