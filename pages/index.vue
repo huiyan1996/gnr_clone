@@ -2,6 +2,7 @@
     <div>
         <Banner />
         <About />
+        <Games />
         <Platforms />
         <Career />
     </div>

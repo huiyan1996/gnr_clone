@@ -63,6 +63,7 @@ export default {
         // "~/plugins/vue2Editor.js",
         { src: '~/plugins/vue2Editor', mode: 'client' },
         { src: '~/plugins/slider', mode: 'client' },
+        { src: '~/plugins/carousel3d', mode: 'client' },
         '~/plugins/indexedDB.js',
     ],
 
