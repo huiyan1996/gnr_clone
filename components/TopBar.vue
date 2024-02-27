@@ -19,7 +19,17 @@
                         </div>
 
                         <div class="dropdownBlock">
-                            aaaaa
+                            Mobile Games
+                            <div class="dropdownRow">
+                                <div class="dropdownItems"><img src="~/assets/img/game_codm.jpg" alt=""></div>
+                                <div class="dropdownItems"><img src="~/assets/img/game_aov.jpg" alt=""></div>
+                                <div class="dropdownItems"><img src="~/assets/img/game_ud.jpg" alt=""></div>
+                                <div class="dropdownItems"><img src="~/assets/img/game_bcm.jpg" alt=""></div>
+                            </div>
+                            <div class="dropdownRow">
+                                <div class="dropdownItems"><img src="~/assets/img/game_ff.jpg" alt=""></div>
+                                <div class="dropdownItems"><img src="~/assets/img/game_speed.jpg" alt=""></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -31,6 +41,14 @@
                                 <div class="dropdownIcon1"></div>
                                 <div class="dropdownIcon2"></div>
                             </div>
+                        </div>
+
+                        <div class="dropdownBlock text-center">
+                            <a class="gpcLink" href="#">
+                                <img src="~/assets/img/gpc.png" alt="">
+                                <div class="text-l mt-2 mainFontBold">Garena PC</div>
+                                <div class="color-lightgrey text-m">Windows</div>
+                            </a>
                         </div>
                     </div>
                 </div>
