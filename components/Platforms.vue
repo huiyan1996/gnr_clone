@@ -18,7 +18,7 @@
                     </div>
                     <div class="platformsImg">
                         <div class="slick-slider block slick-initialized">
-                                            <div class="img" tabindex="-1" style="width: 100%; display: inline-block;"></div>
+                            <div class="img" tabindex="-1" style="width: 100%; display: inline-block;"></div>
                             <div class="slick-list">
                                 <div class="slick-track" style="width: 840px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition: -webkit-transform 600ms ease 0s;">
                                     <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 840px;">

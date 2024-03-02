@@ -2,7 +2,7 @@
 <template>
     <div class="d-inline-block langSelect">
         <span @click="show = !show">
-            <span class="text-uppercase circle">{{ defLang }}</span>
+            <span class="text-uppercase">{{ defLang }}</span>
             <b-icon icon="chevron-down" size="xs" class="ml-1 onlyPc" />
         </span>
         <div v-if="show" class="selectDropdown">

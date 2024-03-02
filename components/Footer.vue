@@ -51,7 +51,7 @@
                             <a class="linkItem" href="/faq">For Parents FAQ</a>
                         </div>
                         <div class="dropdown">
-                            <div class="width">
+                            <!-- <div class="width">
                                 <div class="r8O496+y9+ETu14x2rUc3Q==">
                                     <div class="JMB4Xf64Mc4S3SWW0Hj0VA==">
                                         <div class="-NuirelmrS+wnStmJ6JyNA==">
@@ -99,7 +99,9 @@
                                         </button>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
+
+                            <LangSelect />
                         </div>
                     </div>
                 </div>
